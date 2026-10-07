@@ -20,7 +20,12 @@ public class Housekeeping implements HotelService {
 
     @Override
     public void pickUpVehicle(String plateNumber) {
-        throw new UnsupportedOperationException("Unimplemented method 'pickUpVehicle'");
+        throw new UnsupportedOperationException("Invalid hotel service 'pickUpVehicle'.");
+    }
+
+    @Override
+    public void requestCart(int numberOfCarts) {
+        throw new UnsupportedOperationException("Invalid hotel service 'requestCart'.");
     }
 
 }

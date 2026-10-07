@@ -14,4 +14,8 @@ public class FrontDesk {
     public void cleanRoom(String roomNumber) {
         hotelService.cleanRoom(roomNumber);
     }
+
+    public void requestCart(int numberOfCarts) {
+        hotelService.requestCart(numberOfCarts);
+    }
 }

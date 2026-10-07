@@ -21,7 +21,12 @@ public class Valet implements HotelService {
 
     @Override
     public void cleanRoom(String roomNumber) {
-        throw new UnsupportedOperationException("Unimplemented method 'cleanRoom'");
+        throw new UnsupportedOperationException("Invalid hotel service 'cleanRoom'.");
+    }
+
+    @Override
+    public void requestCart(int numberOfCarts) {
+        throw new UnsupportedOperationException("Invalid hotel service 'requestCart'.");
     }
     
 }
