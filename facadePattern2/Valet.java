@@ -19,5 +19,9 @@ public class Valet implements HotelService {
         ("A valet is sent to receive the car with the plate number of " + getPlateNumber() + "!\n");
     }
 
-
+    @Override
+    public void cleanRoom(String roomNumber) {
+        throw new UnsupportedOperationException("Unimplemented method 'cleanRoom'");
+    }
+    
 }
