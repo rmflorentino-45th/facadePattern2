@@ -10,4 +10,8 @@ public class FrontDesk {
     public void pickUpVehicle(String plateNumber) {
         hotelService.pickUpVehicle(plateNumber);
     }
+
+    public void cleanRoom(String roomNumber) {
+        hotelService.cleanRoom(roomNumber);
+    }
 }
