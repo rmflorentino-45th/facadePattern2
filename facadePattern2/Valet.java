@@ -1,0 +1,23 @@
+package facadePattern2;
+
+public class Valet implements HotelService {
+
+    private String plateNumber;
+
+    public String getPlateNumber() {
+        return this.plateNumber;
+    }
+
+    public void setPlateNumber(String plateNumber) {
+        this.plateNumber = plateNumber;
+    }
+
+    @Override 
+    public void pickUpVehicle(String plateNumber) {
+        setPlateNumber(plateNumber);
+        System.out.println
+        ("A valet is sent to receive the car with the plate number of " + getPlateNumber() + "!\n");
+    }
+
+
+}
